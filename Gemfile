@@ -13,5 +13,3 @@ group :test do
   gem "rspec"
 end
 
-expect(@gemfile_text =~ /group (:test|['"]test['"]) do/).not_to eq(nil)
-expect(@bundle_output =~ /rspec/).not_to eq(nil)
